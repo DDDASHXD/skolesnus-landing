@@ -1,12 +1,17 @@
 import { useEffect } from 'react';
+import Hero from './components/hero';
+import Features from './components/features';
+import Footer from './components/footer';
 
 function App() {
   useEffect(() => {
-    document.location.href="https://app.skolesnus.dk";
+    
   })
   return (
     <div className="App">
-      <h1>Redirecting</h1>
+      <Hero />
+      <Features />
+      <Footer />
     </div>
   );
 }
